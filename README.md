@@ -43,7 +43,7 @@ Borrow out = A'Bin + A'B + BBin
 Write the detailed procedure here
 
 **Program:**
-
+```
 /* Program to design a half subtractor and full subtractor circuit and verify its truth table in quartus using Verilog programming. 
 
 Developed by: Guttha Keerthana
@@ -72,7 +72,7 @@ assign DIFF = a ^ b ^ Bin;
   assign BO = (a & b) | ((a ^ b) & Bin);
 endmodule
 */
-
+```
 **RTL Schematic**
 
 ![](<Screenshot 2024-03-20 173206.png>)
